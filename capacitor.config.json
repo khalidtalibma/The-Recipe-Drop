@@ -1,0 +1,32 @@
+{
+  "appId": "ae.therecipedrop.app",
+  "appName": "The Recipe Drop",
+  "webDir": "www",
+  "server": {
+    "url": "https://therecipedrop.ae",
+    "cleartext": false,
+    "allowNavigation": [
+      "therecipedrop.ae",
+      "*.therecipedrop.ae",
+      "*.base44.app",
+      "*.base44.com",
+      "base44.app",
+      "base44.com"
+    ]
+  },
+  "ios": {
+    "contentInset": "never",
+    "backgroundColor": "#F0E7CE",
+    "limitsNavigationsToAppBoundDomains": false
+  },
+  "plugins": {
+    "BluetoothLe": {
+      "displayStrings": {
+        "scanning": "جارٍ البحث عن جهاز xBloom…",
+        "cancel": "إلغاء",
+        "availableDevices": "الأجهزة المتاحة",
+        "noDeviceFound": "لم يتم العثور على جهاز"
+      }
+    }
+  }
+}

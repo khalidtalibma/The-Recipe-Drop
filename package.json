@@ -1,0 +1,19 @@
+{
+  "name": "the-recipe-drop-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Recipe Drop — iOS app (Capacitor shell around therecipedrop.ae with native Bluetooth for xBloom Brew Mode)",
+  "scripts": {
+    "assets": "capacitor-assets generate --ios --iconBackgroundColor '#F0E7CE' --splashBackgroundColor '#F0E7CE'",
+    "sync": "cap sync ios"
+  },
+  "dependencies": {
+    "@capacitor-community/bluetooth-le": "8.3.0",
+    "@capacitor/core": "8.6.0",
+    "@capacitor/ios": "8.6.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "4.0.0",
+    "@capacitor/cli": "8.6.0"
+  }
+}
